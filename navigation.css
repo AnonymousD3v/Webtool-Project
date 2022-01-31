@@ -1,0 +1,32 @@
+.navLink-list {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 80px;
+  background: black;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.navLink-list li {
+  font-size: 20px;
+}
+
+.navLink-list li a {
+  color: white;
+  -webkit-transition: 0.12s;
+  transition: 0.12s;
+  padding: 10px;
+  border-bottom: #404040 solid 2px;
+  border-radius: 2.5px;
+}
+
+.navLink-list li a:hover {
+  background: #202020;
+}
+/*# sourceMappingURL=navigation.css.map */
