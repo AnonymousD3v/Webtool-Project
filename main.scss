@@ -1,0 +1,15 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    box-shadow: none;
+    border: none;
+}
+
+$dark: #121212;
+
+body {
+    background: $dark;
+}
+
